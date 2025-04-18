@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Qr-code Generator</title>
+    <title>QR-Code Generator</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js" ></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
         <p>Enter your text or URL</p>
-        <input type="text" placeholder="Text or URL " id="qrText">
-        <div id="img">
-            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example" id="qrImage" >
+        <input type="text" placeholder="Text or URL" id="qrText">
+        <div id="imgBox">
+            <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=Example" id="qrImage" alt="QR Code Image">
         </div>
         <button onclick="generateQR()">Generate QR-Code</button>
     </div>
