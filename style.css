@@ -71,6 +71,7 @@ body {
     max-height: 0;
     overflow: hidden;
     transition: max-height 1s;
+    margin-left:20px;
 }
 
 #imgBox img {
